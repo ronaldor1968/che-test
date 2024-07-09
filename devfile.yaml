@@ -3,7 +3,7 @@ metadata:
   name: java-maven
   displayName: Maven Java
   description: JBoson Application
-  icon: https://raw.githubusercontent.com/devfile-samples/devfile-stack-icons/main/java-maven.jpg
+  icon: https://github.com/ronaldor1968/che-test/blob/main/java-maven.jpg
   tags:
     - Java
     - Maven
