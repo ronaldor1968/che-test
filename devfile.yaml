@@ -14,7 +14,7 @@ starterProjects:
   - name: springbootproject
     git:
       remotes:
-        origin: 'https://carteiradigital.pt/eviden/git/ronaldo/teste-che.git'
+        origin: 'https://github.com/ronaldor1968/che-test.git'
 components:
   - name: tools
     container:
