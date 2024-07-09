@@ -10,11 +10,6 @@ metadata:
   projectType: Maven
   language: Java
   version: 1.3.1
-starterProjects:
-  - name: che-test
-    git:
-      remotes:
-        origin: 'https://github.com/ronaldor1968/che-test.git'
 components:
   - name: tools
     container:
