@@ -10,6 +10,13 @@ metadata:
   projectType: Maven
   language: Java
   version: 1.3.1
+
+starterProjects:
+- name: poc-hello-world
+  git:
+    remotes:
+      origin: https://github.com/thallesdc/poc-workspace-project.git
+      
 components:
   - name: tools
     container:
