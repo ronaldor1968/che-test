@@ -13,9 +13,9 @@ metadata:
 
 starterProjects:
 - name: che-test-starter
-  git:
-    remotes:
-      origin: https://github.com/ronaldor1968/che-test.git
+#  git:
+#    remotes:
+#      origin: https://github.com/ronaldor1968/che-test.git
 
 components:
   - name: tools
