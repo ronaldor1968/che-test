@@ -11,8 +11,8 @@ metadata:
   language: Java
   version: 1.3.1
 
-starterProjects:
-- name: che-test-starter
+#starterProjects:
+#- name: che-test-starter
 #  git:
 #    remotes:
 #      origin: https://github.com/ronaldor1968/che-test.git
