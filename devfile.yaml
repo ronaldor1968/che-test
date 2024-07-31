@@ -15,7 +15,7 @@ starterProjects:
 - name: che-test
   git:
     remotes:
-      origin: https://github.com/ronaldor1968/che-test.git  # Removed the space
+      origin: https://github.com/ronaldor1968/che-test.git
 
 components:
   - name: tools
@@ -33,15 +33,12 @@ components:
           targetPort: 5858
       volumeMounts:
         - name: m2
-          path: /home/user/.m2  # Consider specifying a path here (e.g., ./maven-repository)
+          path: /home/user/.m2
       env:
         - name: DEBUG_PORT
           value: '5858'
   - name: m2
-    volume:  # Define the volume with a path (optional)
-        type: persistent  # Optional, specifies persistent volume
-        pvc:  # Optional, specifies existing PVC name
-          claimName: my-maven-pvc  # Optional, name of the PVC
+    volume: {}
 
 commands:
   - id: mvn-package
